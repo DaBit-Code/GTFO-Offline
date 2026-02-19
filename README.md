@@ -84,12 +84,11 @@ python3 gtfo_final.py python suid
 
 📂 Estructura del Proyecto
 
-Archivo	Descripción
-builder.py	Sincroniza y parsea los datos desde el repositorio oficial de GTFOBins.
-gtfo_db.json	Base de datos local optimizada en formato JSON.
-pack.py	Script empaquetador que genera el ejecutable independiente.
-gtfo_final.py	La herramienta final. Todo en uno, lista para ser desplegada.
-gtfo.py	Buscador modular original para consultas en la máquina de ataque.
+   builder.py	Sincroniza y parsea los datos desde el repositorio oficial de GTFOBins.
+   gtfo_db.json	Base de datos local optimizada en formato JSON.
+   pack.py	Script empaquetador que genera el ejecutable independiente.
+   gtfo_final.py	La herramienta final. Todo en uno, lista para ser desplegada.
+   gtfo.py	Buscador modular original para consultas en la máquina de ataque.
 
 ⚠️ Requisitos
 
