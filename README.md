@@ -1,4 +1,4 @@
-## 🚀 GTFO-Offline
+# 🚀 GTFO-Offline
 
 **GTFO-Offline** es una herramienta de post-explotación diseñada para Red Teamers y Pentesters. Permite consultar la base de datos de [GTFOBins](https://gtfobins.github.io/) de forma local y automatizada, ideal para entornos **Air-Gapped** o situaciones donde la discreción es clave.
 
@@ -6,7 +6,7 @@ Con un solo archivo empaquetado, puedes escanear una máquina víctima en busca 
 
 ---
 
-## 🛠️ Preparación (En tu máquina de ataque)
+# 🛠️ Preparación (En tu máquina de ataque)
 
 Antes de cada intervención, es vital tener la base de datos actualizada. Sigue estos pasos en tu máquina local:
 
@@ -42,7 +42,7 @@ python3 pack.py
 
       Esto generará el archivo gtfo_final.py.
 
-## 🎯 Uso en la Máquina Víctima
+# 🎯 Uso en la Máquina Víctima
 
 Opción A: Ejecución "Ninja" (En Memoria - Recomendado) 🥷
 
@@ -82,7 +82,7 @@ También puedes usarlo como un diccionario rápido para buscar un binario espec�
 python3 gtfo_final.py find sudo
 ```
 
-## 📂 Estructura del Proyecto
+# 📂 Estructura del Proyecto
 
     builder.py: Sincroniza y parsea los datos desde el repo oficial de GTFOBins.
 
@@ -94,7 +94,7 @@ python3 gtfo_final.py find sudo
 
     gtfo.py: El buscador modular original.
 
-## ⚠️ Requisitos
+# ⚠️ Requisitos
 
     Máquina de ataque: Python 3.x, pyyaml, requests.
 
