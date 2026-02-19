@@ -13,7 +13,7 @@ Es la solución definitiva para operaciones en entornos **Air-Gapped**, auditor�
 
 Sigue estos pasos en tu máquina local para garantizar que la base de datos esté sincronizada y lista para la acción.
 
-### 🐍 1. Manejo del Entorno de Python
+🐍 1. Manejo del Entorno de Python
 Se recomienda utilizar un entorno virtual para evitar conflictos con las dependencias globales del sistema.
 
 ```bash
