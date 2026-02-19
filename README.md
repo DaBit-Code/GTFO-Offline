@@ -83,31 +83,29 @@ python3 gtfo_final.py python suid
 ```
 
 📂 Estructura del Proyecto
-
-   builder.py	Sincroniza y parsea los datos desde el repositorio oficial de GTFOBins.
+```bash
+      builder.py	Sincroniza y parsea los datos desde el repositorio oficial de GTFOBins.
    
-   gtfo_db.json	Base de datos local optimizada en formato JSON.
+      gtfo_db.json	Base de datos local optimizada en formato JSON.
    
-   pack.py	Script empaquetador que genera el ejecutable independiente.
+      pack.py	Script empaquetador que genera el ejecutable independiente.
+      
+      gtfo_final.py	La herramienta final. Todo en uno, lista para ser desplegada.
    
-   gtfo_final.py	La herramienta final. Todo en uno, lista para ser desplegada.
-   
-   gtfo.py	Buscador modular original para consultas en la máquina de ataque.
-
+      gtfo.py	Buscador modular original para consultas en la máquina de ataque.
+```
 ⚠️ Requisitos
 
-   Máquina de Ataque: Python 3.x, pyyaml, requests.
+      Máquina de Ataque: Python 3.x, pyyaml, requests.
 
-   Máquina Víctima: Python 3.x (Funciona con la librería estándar, sin dependencias externas).
+      Máquina Víctima: Python 3.x (Funciona con la librería estándar, sin dependencias externas).
 
 📜 Licencia y Uso Ético
 
 Este proyecto es de Libre Uso y Código Abierto.
 
-   ✅ Puedes modificarlo, distribuirlo y adaptarlo a tus necesidades.
+      ✅ Puedes modificarlo, distribuirlo y adaptarlo a tus necesidades.
 
-   ✅ No requiere atribución obligatoria, pero se agradece el soporte a la comunidad.
-
-   ❌ El autor no se hace responsable del mal uso de esta herramienta.
+      ❌ El autor no se hace responsable del mal uso de esta herramienta.
 
 GTFO-Offline ha sido desarrollado exclusivamente con fines educativos, de investigación y auditorías de seguridad profesional con el debido consentimiento.
