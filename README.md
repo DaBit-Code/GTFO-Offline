@@ -28,6 +28,7 @@ source venv/bin/activate
 
 # Instalar dependencias necesarias
 pip install -r requirements.txt
+```
 
 🔄 2. Actualización de la Base de Datos
 
